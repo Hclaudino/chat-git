@@ -15,30 +15,7 @@ Este projeto é um chatbot inteligente que integra processamento de linguagem na
 
 ---
 
-## 📂 Estrutura do Projeto
-
-chatbot-evolution/
-│
-├── app/
-│ ├── main.py # API principal (FastAPI)
-│ ├── chains/ # Arquivos de chains do LangChain
-│ ├── agents/ # Agentes customizados
-│ ├── memory/ # Implementações de Buffer e contexto
-│ └── vectorstore/ # Setup e queries vetoriais
-│
-├── docker/
-│ ├── Dockerfile # Imagem principal
-│ └── docker-compose.yml # Orquestração de serviços (API, DB, VectorStore)
-│
-├── .env # Variáveis de ambiente
-├── requirements.txt # Dependências Python
-└── README.md # Este arquivo
-
-yaml
-Copiar
-Editar
-
----
+#
 
 ## ⚙️ Instalação e Execução Local
 
